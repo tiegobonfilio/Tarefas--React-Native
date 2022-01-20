@@ -62,7 +62,7 @@ const App = () => {
     setOpen(false);
     setInput("");
   }
-
+  //deletar task
   const deletar = useCallback((data) => {
     const find = task.filter((r) => r.key !== data.key);
     setTask(find);
