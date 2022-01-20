@@ -49,7 +49,7 @@ const App = () => {
     saveTasks();
   }, [task]);
 
-  //adiciona dados
+  //adiciona task
   function add() {
     if (input === "") return;
 
